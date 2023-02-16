@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>qbittorrent-exporter</Name>
+  <Repository>caseyscarborough/qbittorrent-exporter</Repository>
+  <Registry>https://hub.docker.com/r/caseyscarborough/qbittorrent-exporter</Registry>
+  <Network>bridge</Network>
+  <MyIP/>
+  <Shell>sh</Shell>
+  <Privileged>false</Privileged>
+  <Support/>
+  <Project>https://github.com/caseyscarborough/qbittorrent-exporter</Project>
+  <Overview>This app is a Prometheus exporter for the qBittorrent application.</Overview>
+  <Category>Tools: Status:Stable</Category>
+  <WebUI/>
+  <TemplateURL>https://raw.githubusercontent.com/MasterEvarior/unraid-templates/master/prometheus-qbittorrent-exporter/prometheus-qbittorrent-exporter.xml</TemplateURL>
+  <Icon/>
+  <ExtraParams/>
+  <PostArgs/>
+  <CPUset/>
+  <DateInstalled>1676588609</DateInstalled>
+  <DonateText/>
+  <DonateLink/>
+  <Requires>qBittorrent version 4.1.0 or higher</Requires>
+  <Config Name="qBittorrent Host" Target="QBITTORRENT_BASE_URL" Default="" Mode="" Description="Hostname/IP of your qBittorrent instance" Type="Variable" Display="always" Required="true" Mask="false">http://192.168.2.202:8089</Config>
+  <Config Name="qBittorrent User" Target="QBITTORRENT_USERNAME" Default="" Mode="" Description="Username to your qBittorrent instance" Type="Variable" Display="always" Required="true" Mask="false">admin</Config>
+  <Config Name="qBittorrent Password" Target="QBITTORRENT_PASSWORD" Default="" Mode="" Description="Password to your qBittorrent instance" Type="Variable" Display="always" Required="true" Mask="true">adminadmin</Config>
+  <Config Name="Host Port 1" Target="17871" Default="" Mode="tcp" Description="" Type="Port" Display="always" Required="false" Mask="false">17871</Config>
+</Container>
