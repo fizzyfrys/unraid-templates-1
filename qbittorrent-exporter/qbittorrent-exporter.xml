@@ -25,3 +25,4 @@
   <Config Name="qBittorrent User" Target="QBITTORRENT_USERNAME" Default="" Mode="" Description="Username to your qBittorrent instance" Type="Variable" Display="always" Required="true" Mask="false"/>
   <Config Name="qBittorrent Password" Target="QBITTORRENT_PASSWORD" Default="" Mode="" Description="Password to your qBittorrent instance" Type="Variable" Display="always" Required="true" Mask="true"/>
   <Config Name="Port" Target="17871" Default="17871" Mode="tcp" Description="Port for the exporter" Type="Port" Display="always" Required="true" Mask="false">17871</Config>
+</Container>
