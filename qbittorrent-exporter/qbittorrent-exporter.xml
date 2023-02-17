@@ -13,7 +13,7 @@
   <Category>Tools:</Category>
   <WebUI/>
   <TemplateURL/>
-  <Icon>https://raw.githubusercontent.com/wupasscat/unraid-templates/main/qbittorrent-exporter/qbittorrent-exporter.png</Icon>
+  <Icon>https://raw.githubusercontent.com/wupasscat/qbittorrent-exporter/main/qbittorrent-exporter.png</Icon>
   <ExtraParams/>
   <PostArgs/>
   <CPUset/>
