@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>deluge-exporter</Name>
+  <Repository>ngosang/deluge-exporter</Repository>
+  <Registry>https://hub.docker.com/r/ngosang/deluge-exporter</Registry>
+  <Network>bridge</Network>
+  <MyIP/>
+  <Shell>sh</Shell>
+  <Privileged>false</Privileged>
+  <Support>https://forums.unraid.net/topic/135184-support-wupasscats-template-repository</Support>
+  <Project>https://github.com/ngosang/deluge-exporter</Project>
+  <Overview>Prometheus exporter for the Deluge Bittorrent client. It is designed to use the Deluge Web API and to be lightweight.</Overview>
+  <Category>Tools:</Category>
+  <WebUI/>
+  <TemplateURL/>
+  <Icon>https://raw.githubusercontent.com/wupasscat/unraid-images/main/deluge-exporter.png</Icon>
+  <ExtraParams/>
+  <PostArgs/>
+  <CPUset/>
+  <DateInstalled>1676746746</DateInstalled>
+  <DonateText/>
+  <DonateLink/>
+  <Requires/>
+  <Config Name="Deluge Web UI" Target="DELUGE_URL" Default="" Mode="" Description="example: http://192.168.1.191:8112" Type="Variable" Display="always" Required="true" Mask="false">http://192.168.2.202:8112</Config>
+  <Config Name="Deluge Web UI Password" Target="DELUGE_PASSWORD" Default="" Mode="" Description="" Type="Variable" Display="always" Required="true" Mask="true">deluge</Config>
+  <Config Name="Listen Port" Target="8011" Default="8011" Mode="tcp" Description="" Type="Port" Display="always" Required="true" Mask="false">8011</Config>
+  <Config Name="Log Level" Target="LOG_LEVEL" Default="INFO" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">INFO</Config>
+</Container>
