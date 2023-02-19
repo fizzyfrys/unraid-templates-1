@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>muse</Name>
+  <Repository>codetheweb/muse</Repository>
+  <Registry>https://hub.docker.com/r/codetheweb/muse</Registry>
+  <Network>bridge</Network>
+  <MyIP/>
+  <Shell>sh</Shell>
+  <Privileged>false</Privileged>
+  <Support>https://forums.unraid.net/topic/135184-support-wupasscats-template-repository/</Support>
+  <Project>https://github.com/codetheweb/muse</Project>
+  <Overview>&#x1F3A7; a self-hosted midwestern Discord music bot that doesn't suck</Overview>
+  <Category>MediaServer:Music MediaServer:Other</Category>
+  <WebUI/>
+  <TemplateURL/>
+  <Icon>https://raw.githubusercontent.com/codetheweb/muse/master/.github/logo.png</Icon>
+  <ExtraParams/>
+  <PostArgs/>
+  <CPUset/>
+  <DateInstalled>1676777883</DateInstalled>
+  <DonateText/>
+  <DonateLink/>
+  <Requires/>
+  <Config Name="Appdata" Target="/data" Default="/mnt/user/appdata/muse/data" Mode="rw" Description="" Type="Path" Display="always" Required="true" Mask="false">/mnt/user/appdata/muse/data</Config>
+  <Config Name="Discord Bot Token" Target="DISCORD_TOKEN" Default="" Mode="" Description="" Type="Variable" Display="always" Required="true" Mask="false"/>
+  <Config Name="Spotify Client ID" Target="SPOTIFY_CLIENT" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false"/>
+  <Config Name="Spotify Client Secret" Target="SPOTIFY_CLIENT_SECRET" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="true"/>
+  <Config Name="YouTube API Key" Target="YOUTUBE_API_KEY" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false"/>
+  <Config Name="Bot Status" Target="BOT_STATUS" Default="" Mode="" Description="online, idle, dnd" Type="Variable" Display="advanced" Required="false" Mask="false"/>
+  <Config Name="Bot Activity Type" Target="BOT_ACTIVITY_TYPE" Default="" Mode="" Description="PLAYING, LISTENING, WATCHING, STREAMING" Type="Variable" Display="advanced" Required="false" Mask="false"/>
+  <Config Name="Bot Activity" Target="BOT_ACTIVITY" Default="" Mode="" Description="the text that follows the activity type" Type="Variable" Display="advanced" Required="false" Mask="false"/>
+  <Config Name="Bot Activity URL (REQUIRED FOR STREAMING)" Target="BOT_ACTIVITY_URL" Default="" Mode="" Description="If you set Bot Activity Type to STREAMING, your MUST use this variable. Accepts YouTube or Twitch stream URL" Type="Variable" Display="advanced" Required="false" Mask="false"/>
+  <Config Name="Cache Size Limit" Target="CACHE_LIMIT" Default="2GB" Mode="" Description="" Type="Variable" Display="advanced" Required="false" Mask="false"/>
+</Container>
