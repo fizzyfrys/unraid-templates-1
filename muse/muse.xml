@@ -23,7 +23,7 @@
   <Requires/>
   <Config Name="Appdata" Target="/data" Default="/mnt/user/appdata/muse/data" Mode="rw" Description="" Type="Path" Display="always" Required="true" Mask="false">/mnt/user/appdata/muse/data</Config>
   <Config Name="Discord Bot Token" Target="DISCORD_TOKEN" Default="" Mode="" Description="" Type="Variable" Display="always" Required="true" Mask="false"/>
-  <Config Name="Spotify Client ID" Target="SPOTIFY_CLIENT" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false"/>
+  <Config Name="Spotify Client ID" Target="SPOTIFY_CLIENT_ID" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false"/>
   <Config Name="Spotify Client Secret" Target="SPOTIFY_CLIENT_SECRET" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="true"/>
   <Config Name="YouTube API Key" Target="YOUTUBE_API_KEY" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false"/>
   <Config Name="Bot Status" Target="BOT_STATUS" Default="" Mode="" Description="online, idle, dnd" Type="Variable" Display="advanced" Required="false" Mask="false"/>
