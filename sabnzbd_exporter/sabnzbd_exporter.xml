@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>sabnzbd_exporter</Name>
+  <Repository>msroest/sabnzbd_exporter</Repository>
+  <Registry>https://hub.docker.com/r/msroest/sabnzbd_exporter</Registry>
+  <Network>bridge</Network>
+  <MyIP/>
+  <Shell>sh</Shell>
+  <Privileged>false</Privileged>
+  <Support>https://forums.unraid.net/topic/135184-support-wupasscats-template-repository/</Support>
+  <Project>https://github.com/msroest/sabnzbd_exporter</Project>
+  <Overview>This is a metrics exporter for sending statistics from sabnzbd (https://sabnzbd.org/) to prometheus (http://prometheus.io).</Overview>
+  <Category>Tools:</Category>
+  <WebUI/>
+  <TemplateURL/>
+  <Icon>https://raw.githubusercontent.com/wupasscat/unraid-images/main/sabnzbd_exporter.png</Icon>
+  <ExtraParams/>
+  <PostArgs/>
+  <CPUset/>
+  <DateInstalled>1676774290</DateInstalled>
+  <DonateText/>
+  <DonateLink/>
+  <Requires/>
+  <Config Name="Sabnzbd URL(s)" Target="SABNZBD_BASEURLS" Default="" Mode="" Description="example: http://192.168.1.100:8080/sabnzbd" Type="Variable" Display="always" Required="true" Mask="false"/>
+  <Config Name="Sabnzbd API key(s)" Target="SABNZBD_APIKEYS" Default="" Mode="" Description="" Type="Variable" Display="always" Required="true" Mask="false"/>
+  <Config Name="Listen Port" Target="9387" Default="9387" Mode="tcp" Description="Exporter port" Type="Port" Display="always" Required="true" Mask="false">9387</Config>
+</Container>
