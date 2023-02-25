@@ -12,7 +12,7 @@
   <Overview>&#x1F3A7; a self-hosted midwestern Discord music bot that doesn't suck</Overview>
   <Category>MediaServer:Music MediaServer:Other</Category>
   <WebUI/>
-  <TemplateURL>https://raw.githubusercontent.com/wupasscat/unraid-templates/master/muse/muse.xml<TemplateURL/>
+  <TemplateURL>https://raw.githubusercontent.com/wupasscat/unraid-templates/master/muse/muse.xml</TemplateURL>
   <Icon>https://raw.githubusercontent.com/codetheweb/muse/master/.github/logo.png</Icon>
   <ExtraParams/>
   <PostArgs/>
