@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>ps2-continent-bot</Name>
+  <Repository>wupasscat/continentbot</Repository>
+  <Registry>https://hub.docker.com/r/wupasscat/continentbot</Registry>
+  <Network>bridge</Network>
+  <MyIP/>
+  <Shell>sh</Shell>
+  <Privileged>false</Privileged>
+  <Support>https://forums.unraid.net/topic/135184-support-wupasscats-template-repository</Support>
+  <Project>https://github.com/wupasscat/continent-bot</Project>
+  <Overview>A Discord bot written in Python for Planetside 2 that checks which continents are open on a server so you don't have to.</Overview>
+  <Category>Tools: Status:Beta</Category>
+  <WebUI/>
+  <TemplateURL/>
+  <Icon>https://raw.githubusercontent.com/wupasscat/continent-bot/main/assets/icon.jpg</Icon>
+  <ExtraParams/>
+  <PostArgs/>
+  <CPUset/>
+  <DateInstalled>1677727827</DateInstalled>
+  <DonateText/>
+  <DonateLink/>
+  <Requires/>
+  <Config Name="Discord Bot Token" Target="DISCORD_TOKEN" Default="" Mode="" Description="" Type="Variable" Display="always" Required="true" Mask="false"/>
+  <Config Name="PlanetSide 2 API service ID" Target="CENSUS_API_KEY" Default="s:example" Mode="" Description="" Type="Variable" Display="always" Required="true" Mask="false">s:example</Config>
+  <Config Name="Guild IDs" Target="GUILD_IDS" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false"/>
+</Container>
