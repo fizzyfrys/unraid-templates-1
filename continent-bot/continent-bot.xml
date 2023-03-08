@@ -23,5 +23,5 @@
   <Requires/>
   <Config Name="Discord Bot Token" Target="DISCORD_TOKEN" Default="" Mode="" Description="" Type="Variable" Display="always" Required="true" Mask="false"/>
   <Config Name="PlanetSide 2 API service ID" Target="CENSUS_API_KEY" Default="s:example" Mode="" Description="" Type="Variable" Display="always" Required="true" Mask="false">s:example</Config>
-  <Config Name="Guild IDs" Target="GUILD_IDS" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false"/>
+  <Config Name="Log Level" Target="LOG_LEVEL" Default="INFO" Mode="" Description="" Type="Variable" Display="always" Required="true" Mask="false">INFO</Config>
 </Container>
